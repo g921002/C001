@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"easygps_v2\main.o"
+"easygps_v2\stm32f1xx_hal_msp.o"
+"easygps_v2\stm32f1xx_it.o"
+"easygps_v2\nmea.o"
+"easygps_v2\system_stm32f1xx.o"
+"easygps_v2\stm32f1xx_hal_dma.o"
+"easygps_v2\stm32f1xx_hal_rcc_ex.o"
+"easygps_v2\stm32f1xx_hal_gpio_ex.o"
+"easygps_v2\stm32f1xx_hal_pwr.o"
+"easygps_v2\stm32f1xx_hal_tim_ex.o"
+"easygps_v2\stm32f1xx_hal_flash.o"
+"easygps_v2\stm32f1xx_hal_rcc.o"
+"easygps_v2\stm32f1xx_hal_gpio.o"
+"easygps_v2\stm32f1xx_hal_cortex.o"
+"easygps_v2\stm32f1xx_hal_tim.o"
+"easygps_v2\stm32f1xx_hal_flash_ex.o"
+"easygps_v2\stm32f1xx_hal.o"
+"easygps_v2\stm32f1xx_hal_uart.o"
+"easygps_v2\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "EasyGPS_V2\EasyGPS_V2.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EasyGPS_V2.map" -o EasyGPS_V2\EasyGPS_V2.axf
